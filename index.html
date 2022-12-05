@@ -1,0 +1,74 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <title>Analog and Digital Clock</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS v5.2.1 -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+
+    <!-- My Custom CSS -->
+    <link rel="stylesheet" href="./styles/styles.css">
+</head>
+
+<body class="container-fluid">
+    <header>
+        <!-- For my information -->
+        <h1><span>Giddy's</span> <i>Chronometer</i></h1>
+    </header>
+    <main>
+        <div class="container container-fluid">
+            <!-- For the Analog clock -->
+            <div class="clock">
+                <!-- for the inner circles -->
+                <div class="circle" id="sc" style="--cir:#04fc43;"><i></i></div>
+                <div class="circle  circle2" id="mn" style="--cir:#fee800;"><i></i></div>
+                <div class="circle circle3" id="hr" style="--cir:#ff2972;"><i></i></div>
+                <!-- For the clock face numbers-->
+                <span style="--i:1;"><b>1</b></span>
+                <span style="--i:2;"><b>2</b></span>
+                <span style="--i:3;"><b>3</b></span>
+                <span style="--i:4;"><b>4</b></span>
+                <span style="--i:5;"><b>5</b></span>
+                <span style="--i:6;"><b>6</b></span>
+                <span style="--i:7;"><b>7</b></span>
+                <span style="--i:8;"><b>8</b></span>
+                <span style="--i:9;"><b>9</b></span>
+                <span style="--i:10;"><b>10</b></span>
+                <span style="--i:11"><b>11<b></span>
+                <span style="--i:12"><b>12<b></span>
+            </div>
+
+            <!-- Digital clock -->
+            <div id="time">
+                <div id="hours" style="--cir:#ff2972;">00</div>
+                <div id="minutes" style="--cir:#fee800;">00</div>
+                <div id="seconds" style="--cir:#04fc43;">00</div>
+                <div id="ampm">AM</div>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <!-- place footer here -->
+        <br><br>
+        <p>No Sleep! No Sleep! Wake up!</p>
+        <audio src="./music/disco-groove-122074.mp3" autoplay loop></audio>
+    </footer>
+    <!-- custom js -->
+    <script src="./js/index.js"></script>
+
+    <!-- Bootstrap JavaScript Libraries -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+        integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous">
+        </script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.min.js"
+        integrity="sha384-7VPbUDkoPSGFnVtYi0QogXtr74QeVeeIs99Qfg5YCF+TidwNdjvaKZX19NZ/e6oz" crossorigin="anonymous">
+        </script>
+</body>
+
+</html>
